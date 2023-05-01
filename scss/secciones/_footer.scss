@@ -1,13 +1,14 @@
 /* --------------------------------------FOOTER----------------------------------*/
-#footer {
+.footer {
     color: $gris;
-    background-color:$gris ;
+    background-color: $gris;
+    width: 100%;
     height: 100%;
 }
 
 .containerfooter {
     display: grid;
-    height: 15vw;
+    height: 100%;
     width: auto;
     background-color: $gris;
     grid-template-columns: 1fr 1fr 1fr;
