@@ -1,8 +1,9 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&family=Montserrat:wght@100&display=swap");
 * {
   margin: 0;
   padding: 0;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
 }
 
 header p {
@@ -72,6 +73,7 @@ nav ul li {
   -webkit-text-decoration: black;
           text-decoration: black;
   font-size: 17px;
+  font-weight: bolder;
 }
 
 .volver-arriba {
@@ -287,11 +289,6 @@ h1 {
 }
 
 /* Fuente local*/
-@font-face {
-  color: white;
-  font-family: "Montserrat";
-  src: url("../recursos/fonts/Montserrat-Thin.ttf");
-}
 #logo-marca {
   display: inline;
   width: 150px;

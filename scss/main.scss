@@ -1,8 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: "Montserrat";
-}
+@import '../scss/utilities/typo';
+@import '../scss/utilities/reset';
 
 @import './secciones/header';
 @import './secciones/inicio';
@@ -14,12 +11,6 @@
 
 
 /* Fuente local*/
-@font-face {
-    color: white;
-    font-family: "Montserrat";
-    src: url('../recursos/fonts/Montserrat-Thin.ttf');
-}
-
 #logo-marca {
     display: inline;
     width: 150px;
