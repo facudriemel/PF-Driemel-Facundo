@@ -288,17 +288,6 @@ h1 {
   grid-area: logo;
 }
 
-/* Fuente local*/
-#logo-marca {
-  display: inline;
-  width: 150px;
-}
-
-h1 {
-  font-family: "Montserrat";
-  text-align: center;
-}
-
 /* --------------------------------------RESPONSIVE----------------------------------*/
 /* -----------------RESPONSIVE INDEX----------------*/
 @media (max-width: 2560px) {
