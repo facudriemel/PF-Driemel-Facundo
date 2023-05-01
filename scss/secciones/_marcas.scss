@@ -10,7 +10,7 @@
     padding: 20px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
+    gap: 0px 50px;
     grid-auto-flow: row;
     grid-template-areas:
         "foto marcanombrescalpers"
@@ -19,8 +19,6 @@
     align-items: center;
     justify-items: center;
     font-weight: bold;
-    padding-right: 150px;
-    margin-right: 50px;
 
     img {
         height: 450px;

@@ -2,10 +2,10 @@
 /* -----------------RESPONSIVE INDEX----------------*/
 @media (max-width:2560px){
     #main-index div img{
-        width: 100vw;
+        width: 100%;
     }
     .caja-index-c3{
-        width: 100vw;
+        width: 100%;
     }
 
 }
@@ -31,7 +31,7 @@
 }
 @media (max-width:450px){
     .containerfooter{
-        height: 100vw;
+        height: 100%;
     }
     .texto-grid-index{
         font-size: 11px;
@@ -57,7 +57,7 @@
     }
  @media (max-width:450px){
     .containerfooter{
-        height: 122vw;
+        height: 100%;
     }
     .texto-grid-index {
         font-size: 14px;
