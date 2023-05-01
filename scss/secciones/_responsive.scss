@@ -1,75 +1,75 @@
 /* --------------------------------------RESPONSIVE----------------------------------*/
 /* -----------------RESPONSIVE INDEX----------------*/
-@media (max-width:2560px){
-    #main-index div img{
+@media (max-width:2560px) {
+
+    #main-index div img {
         width: 100%;
     }
-    .caja-index-c3{
+
+    .caja-index-c3 {
         width: 100%;
     }
 
 }
-@media (max-width:1440px){
-    .containerfooter{
+
+@media (max-width:1440px) {
+
+    .containerfooter {
         height: 14vw;
     }
 
 }
-@media (max-width:1024px){
-    .containerfooter{
+
+@media (max-width:1024px) {
+
+    .containerfooter {
         height: 27vw;
     }
-    .header-barra-flex{
+
+    .header-barra-flex {
         flex-direction: column;
     }
+    .containermarcas{
+        justify-content: end;
+    }
 
 }
-@media (max-width:768px){
-    .containerfooter{
-        height: 36vw;
+@media (max-width:595px){
+    .containermarcas{
+        align-items: center;
+        font-size: 10px;
+        padding: 0;
+        gap: 0 10px;
     }
+    .containermarcas img{
+        height: 255px;
+        padding-left: 5px;
+    }
+
 }
-@media (max-width:450px){
-    .containerfooter{
+
+@media (max-width:450px) {
+    .containerfooter {
         height: 100%;
     }
-    .texto-grid-index{
+
+    .texto-grid-index {
         font-size: 11px;
     }
-    .inicio{
-        font-size: 24px;
-    }
-    .verano-primavera{
-        font-size: 24px;
-    }
-    .invierno-otoño{
-        font-size: 24px;
-    }
-    .Contacto{
-        font-size: 24px;
-    }
-    .marcas{
-        font-size: 24px;
-    }
-    #logo-marca{
-        height: 110px;
-        width: 140px;
-    }
- @media (max-width:450px){
-    .containerfooter{
-        height: 100%;
-    }
-    .texto-grid-index {
-        font-size: 14px;
-    }
- }
 
-}
-/* --------------------------------------RESPONSIVE----------------------------------*/
-/* -----------------RESPONSIVE VERANO-PRIMAVERA----------------*/
-@media (max-width:400px){
-    *{
-        width: auto;
-        height: min-content;
+    @media (max-width:450px) {
+        .containerfooter {
+            width: 100vw;
+        }
+
+        .texto-grid-index {
+            font-size: 14px;
+        }
+    @media (max-width:349px){ 
+        .header p{
+            background-size: auto;
+        } 
+    }
+
     }
 }
