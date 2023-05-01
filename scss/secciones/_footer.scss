@@ -1,0 +1,72 @@
+/* --------------------------------------FOOTER----------------------------------*/
+#footer {
+    color: #262626;
+    background-color:#262626 ;
+    height: 100%;
+}
+
+.containerfooter {
+    display: grid;
+    height: 15vw;
+    width: auto;
+    background-color: #262626;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    align-items: center;
+    justify-items: center;
+    padding-top: 10px;
+    grid-template-areas:
+        "mensajeatencion mensajeatencion mensajeatencion"
+        "Direccion Direccion Direccion"
+        "redes logo numero"
+        "redes logo numero"
+        ". . .";
+
+}
+
+.mensajeatencion {
+    grid-area: mensajeatencion;
+    color: white;
+}
+
+.mensajeatencion:hover {
+    transform: translateY(-5px)
+}
+
+.Direccion {
+    grid-area: Direccion;
+    color: white;
+}
+.Direccion:hover {
+    transform: translateY(-5px)
+}
+
+.redes {
+    grid-area: redes;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+}
+
+.redes:hover {
+    transform: translateY(-5px)
+}
+
+
+.numero {
+    grid-area: numero;
+    color: white;
+}
+
+.numero:hover {
+    transform: translateY(-5px)
+}
+
+.logo {
+    grid-area: logo;
+}
+

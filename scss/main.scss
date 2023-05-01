@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+
+@import './secciones/header';
+@import './secciones/inicio';
+@import './secciones/verano';
+@import './secciones/invierno';
+@import './secciones/contacto';
+@import './secciones/marcas';
+@import './secciones/footer';
+
+
+/* Fuente local*/
+@font-face {
+    color: white;
+    font-family: "Montserrat";
+    src: url('../recursos/fonts/Montserrat-Thin.ttf');
+}
+
+#logo-marca {
+    display: inline;
+    width: 150px;
+}
+
+h1 {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+
+
+
+
+/* --------------------------------------RESPONSIVE----------------------------------*/
+/* -----------------RESPONSIVE INDEX----------------*/
+@media (max-width:2560px){
+    #main-index div img{
+        width: 100vw;
+    }
+    .caja-index-c3{
+        width: 100vw;
+    }
+
+}
+@media (max-width:1440px){
+    .containerfooter{
+        height: 14vw;
+    }
+
+}
+@media (max-width:1024px){
+    .containerfooter{
+        height: 27vw;
+    }
+    .header-barra-flex{
+        flex-direction: column;
+    }
+
+}
+@media (max-width:768px){
+    .containerfooter{
+        height: 36vw;
+    }
+}
+@media (max-width:450px){
+    .containerfooter{
+        height: 100vw;
+    }
+    .texto-grid-index{
+        font-size: 11px;
+    }
+    .inicio{
+        font-size: 24px;
+    }
+    .verano-primavera{
+        font-size: 24px;
+    }
+    .invierno-otoño{
+        font-size: 24px;
+    }
+    .Contacto{
+        font-size: 24px;
+    }
+    .marcas{
+        font-size: 24px;
+    }
+    #logo-marca{
+        height: 110px;
+        width: 140px;
+    }
+ @media (max-width:450px){
+    .containerfooter{
+        height: 122vw;
+    }
+    .texto-grid-index {
+        font-size: 14px;
+    }
+ }
+
+}
+/* --------------------------------------RESPONSIVE----------------------------------*/
+/* -----------------RESPONSIVE VERANO-PRIMAVERA----------------*/
+@media (max-width:400px){
+    *{
+        width: auto;
+        height: min-content;
+    }
+}

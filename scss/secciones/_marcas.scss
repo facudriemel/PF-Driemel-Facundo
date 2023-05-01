@@ -1,0 +1,55 @@
+/* --------------------------------------MARCAS----------------------------------*/
+.marcasrecomendadas {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: solid black underline;
+}
+
+.containermarcas {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "foto marcanombrescalpers"
+        "foto info"
+        "foto NADA";
+    align-items: center;
+    justify-items: center;
+    font-weight: bold;
+    padding-right: 150px;
+    margin-right: 50px;
+
+    img {
+        height: 450px;
+    }
+}
+
+.containermarcas .marcanombrescalpers {
+    font-size: 35px;
+}
+
+.foto {
+    grid-area: foto;
+}
+
+.NADA {
+    grid-area: NADA;
+}
+
+.info {
+    grid-area: info;
+}
+
+.marcanombrescalpers {
+    grid-area: marcanombrescalpers;
+}
+
+.video-pasarela {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+

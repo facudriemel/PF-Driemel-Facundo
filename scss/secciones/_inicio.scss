@@ -1,0 +1,53 @@
+/*---------------------------------seccion INICIO --------------------------------*/
+/*----------main INICIO ----------*/
+#main-index {
+    color: black;
+}
+
+
+.flex-main-index {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+}
+
+.caja-index {
+    border: 1px rgb(0, 0, 0) solid;
+    background-color: whitesmoke;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.texto-grid-index {
+    background-color: white;
+    text-decoration: black;
+    font-size: 17px;
+}
+
+
+.volver-arriba {
+    text-align: center;
+    font-family: "Montserrat", solid;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    display: block;
+    padding: 4px;
+    width: auto;
+
+}
+
+.volver-arriba:hover {
+    transform: translateY(-5px);
+}
+
+h1 {
+    text-align: center;
+}
+
