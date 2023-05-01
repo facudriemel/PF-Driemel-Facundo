@@ -6,42 +6,41 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.flex-verainvie, .flex-invierno, .flex-verano {
+  padding: 10px 90px 10px 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #5f7393;
+  background-color: #80715f;
+}
+.flex-verainvie img, .flex-invierno img, .flex-verano img {
+  height: 350px;
+  padding: 50px;
+}
+
 header p {
   text-align: center;
-  font-family: "Montserrat", solid;
+  font-family: solid;
   color: white;
   background-color: #262626;
   height: 26px;
   width: auto;
 }
-
-/* BARRA NAVEGACION ESTILO */
-.header-barra-flex {
-  background-color: #959494;
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-content: space-between;
+header nav ul li {
+  padding: 20px;
+  display: inline;
+  font-size: 25px;
+  overflow: hidden;
 }
-
 header nav ul li a {
   color: black;
-  font-family: "Montserrat";
   -webkit-text-decoration: double;
           text-decoration: double;
   font-weight: bolder;
 }
-
-.navegacion-barra {
+header .navegacion-barra {
   text-align: center;
-  overflow: hidden;
-}
-
-nav ul li {
-  padding: 20px;
-  display: inline;
-  font-size: 25px;
   overflow: hidden;
 }
 
@@ -98,32 +97,7 @@ h1 {
 
 /*---------------------------------seccion verano ---------------------------------*/
 /*----------main verano----------*/
-.flex-verano {
-  background-color: #80715f;
-  padding: 10px 90px 10px 90px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-.flex-verano img {
-  height: 350px;
-  padding: 50px;
-}
-
-/* ---------------------------------seccion invierno--------------------------- */
-.flex-invierno {
-  background-color: #5f7393;
-  padding: 10px 90px 10px 90px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-.flex-invierno img {
-  height: 350px;
-  padding: 50px;
-}
-
-/* --------------------------------------CONTACTO----------------------------------*/
+/* ---------------------------------seccion invierno--------------------------- */ /* --------------------------------------CONTACTO----------------------------------*/
 .contacto-info {
   text-align: center;
   padding: 15px;

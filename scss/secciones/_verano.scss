@@ -1,14 +1,5 @@
 /*---------------------------------seccion verano ---------------------------------*/
 /*----------main verano----------*/
 .flex-verano {
-    background-color: #80715f;
-    padding: 10px 90px 10px 90px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
-    img {
-        height: 350px;
-        padding: 50px;
-    }
+    @extend .flex-verainvie;
 }

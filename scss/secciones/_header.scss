@@ -1,37 +1,28 @@
-header p {
-    text-align: center;
-    font-family: "Montserrat", solid;
-    color: white;
-    background-color: $gris;
-    height: 26px;
-    width: auto;
-}
-/* BARRA NAVEGACION ESTILO */
+header {
+    p {
+        text-align: center;
+        font-family: solid;
+        color: white;
+        background-color: $gris;
+        height: 26px;
+        width: auto;
 
-.header-barra-flex {
-    background-color: #959494;
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-between;
-}
+    }
+    nav ul li {
+        padding: 20px;
+        display: inline;
+        font-size: 25px;
+        overflow: hidden;
+    }
 
-header nav ul li a {
-    color: black;
-    font-family: "Montserrat";
-    text-decoration: double;
-    font-weight: bolder;
-}
+    nav ul li a {
+        color: black;
+        text-decoration: double;
+        font-weight: bolder;
+    }
+    .navegacion-barra {
+        text-align: center;
+        overflow: hidden;
+    }
 
-.navegacion-barra {
-    text-align: center;
-    overflow: hidden;
-}
-
-nav ul li {
-    padding: 20px;
-    display: inline;
-    font-size: 25px;
-    overflow: hidden;
 }
