@@ -7,6 +7,11 @@
     img {
         height: 350px;
         padding: 50px;
+        cursor: pointer;
+    }
+    img:hover{
+        transform: scale(1.5);
+        transition: 1s;
     }
     background-color: #5f7393;
     background-color: #80715f;

@@ -1,8 +1,8 @@
 /* --------------------------------------RESPONSIVE----------------------------------*/
 /* -----------------RESPONSIVE INDEX----------------*/
-@media (max-width:2560px) {
 
-    #main-index div img {
+@media (max-width:2560px) {
+    .main-index div img {
         width: 100%;
     }
 
@@ -13,7 +13,6 @@
 }
 
 @media (max-width:1440px) {
-
     .containerfooter {
         height: 14vw;
     }
