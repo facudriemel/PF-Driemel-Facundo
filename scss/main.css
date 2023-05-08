@@ -18,10 +18,11 @@
   height: 350px;
   padding: 50px;
   cursor: pointer;
+  border-radius: 25%;
 }
 .flex-verainvie img:hover, .flex-invierno img:hover, .flex-verano img:hover {
   transform: scale(1.5);
-  transition: 1s;
+  transition: 0.5s;
 }
 
 header p {
