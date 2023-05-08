@@ -38,12 +38,8 @@
     .containermarcas{
         align-items: center;
         font-size: 10px;
-        padding: 0;
+        padding: 10px;
         gap: 0 10px;
-    }
-    .containermarcas img{
-        height: 255px;
-        padding-left: 5px;
     }
 
 }
@@ -61,7 +57,16 @@
         .containerfooter {
             width: 100vw;
         }
+        .containermarcas img{
+            height: 200px;
+        }
+        .marcanombrescalpers{
+            font-size: 23px;
+        }
 
+        .marcasrecomendadas { 
+            font-size: 25px;
+        }
         .texto-grid-index {
             font-size: 14px;
         }

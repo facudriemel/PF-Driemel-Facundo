@@ -13,23 +13,39 @@
 </head>
 
 <body> <!-- Encabezado -->
-    <header class="header-style"> <!-- Logo+barra de navegacion -->
-        <p class="arriba-info">Inicio</p>
-        <div class="header-barra-flex">
-            <nav class="navegacion-barra"> <!-- barra de navegacion -->
-                <ul>
-                    <li><a href="./index.html" class="inicio">Inicio</a> </li>
-                    <li><a href="./secciones/verano-primavera.html" class="verano-primavera">Calor</a></li>
-                    <li><a href="./secciones/invierno-otoño.html" class="invierno-otoño">Frio</a></li>
-                    <li><a href="./secciones/contacto.html" class="Contacto">Contacto</a></li>
-                    <li><a href="./secciones/marcas.html" class="marcas">Marcas</a></li>
-                    <!-- Lista no ordenada -->
-                </ul>
-            </nav>
-        </div>
+    <header class="header-style">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html" class="inicio">Inicio</a> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./secciones/verano-primavera.html"
+                                class="verano-primavera">Calor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./secciones/invierno-otoño.html" class="invierno-otoño">Frio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./secciones/contacto.html" class="Contacto">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./secciones/marcas.html" class="marcas">Marcas</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
     </header>
 
-    <main id="main-index"> <!-- Contenido principal -->
+    <main class="main-index"> <!-- Contenido principal -->
         <section class="flex-main-index">
             <div class="caja-index c1"><img src="./imagenes/denimarriba.jpg" alt="Denim"></div>
 

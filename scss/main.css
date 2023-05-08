@@ -50,7 +50,7 @@ header img .logo-marca {
 
 /*---------------------------------seccion INICIO --------------------------------*/
 /*----------main INICIO ----------*/
-#main-index {
+.main-index {
   color: black;
 }
 
@@ -163,7 +163,7 @@ h1 {
   display: grid;
   padding: 20px;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 0, 9fr 1fr 1fr;
   gap: 0px 50px;
   grid-auto-flow: row;
   grid-template-areas: "foto marcanombrescalpers" "foto info" "foto NADA";
@@ -297,12 +297,8 @@ h1 {
   .containermarcas {
     align-items: center;
     font-size: 10px;
-    padding: 0;
+    padding: 10px;
     gap: 0 10px;
-  }
-  .containermarcas img {
-    height: 255px;
-    padding-left: 5px;
   }
 }
 @media (max-width: 450px) {
@@ -316,6 +312,15 @@ h1 {
 @media (max-width: 450px) and (max-width: 450px) {
   .containerfooter {
     width: 100vw;
+  }
+  .containermarcas img {
+    height: 200px;
+  }
+  .marcanombrescalpers {
+    font-size: 23px;
+  }
+  .marcasrecomendadas {
+    font-size: 25px;
   }
   .texto-grid-index {
     font-size: 14px;
